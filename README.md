@@ -2,6 +2,8 @@ This repository demonstrates a bug introduced in Hibernate 6. The mapping of jso
 
 I tried with **@JdbcTypeCode(SqlTypes.JSON)** from Hibernate 6 and **@Type(JsonType.class)** from hypersistence-utils-hibernate-63 and both result in the same error.
 
+Example can be found in **EntityServiceTest**.
+
 ## Stack traces:
 
 ### using @JdbcTypeCode(SqlTypes.JSON)
